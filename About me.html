@@ -1,83 +1,94 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>About Me - Ansh Mishra</title>
-  <link rel="stylesheet" href="
-  style.css">
+  <link rel="stylesheet" href="style.css">
   <style>
     body {
       font-family: "Open Sans", sans-serif;
-      background-color: #f0e6d2;
-      color: #3b2f2f;
+      background: linear-gradient(135deg, #b3b5ff, #e5ccff);
+      color: #2e1f47;
       margin: 0;
       padding: 0;
     }
 
     /* Navbar */
     nav {
-      background-color: #6b4226;
-      color: #f0e6d2;
+      background-color: #3c2a4d;
+      color: #f9f5ff;
       display: flex;
       justify-content: center;
-      gap: 25px;
+      gap: 30px;
       padding: 15px 0;
+      font-size: 17px;
+      letter-spacing: 0.5px;
     }
 
     nav a {
-      color: #f0e6d2;
+      color: #f9f5ff;
       text-decoration: none;
       font-weight: bold;
-      font-size: 16px;
+      transition: color 0.3s ease;
     }
 
     nav a:hover {
+      color: #d1b3ff;
       text-decoration: underline;
     }
 
     /* Container */
     .container {
-      max-width: 800px;
-      margin: 40px auto;
-      background-color: #fffaf0;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 700px;
+      margin: 60px auto;
+      background: #ffffffdd;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
       text-align: center;
     }
 
     .container h1 {
-      color: #6b4226;
-      border-bottom: 2px solid #6b4226;
-      display: inline-block;
-      padding-bottom: 5px;
-      margin-bottom: 25px;
-    }
-
-    .container img {
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
-      border: 4px solid #6b4226;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-      object-fit: cover;
+      color: #3c2a4d;
+      font-size: 28px;
       margin-bottom: 20px;
     }
 
-    .container p {
-      font-size: 16px;
+    .bio {
+      font-size: 17px;
       line-height: 1.6;
-      margin: 8px 0;
+      margin-bottom: 25px;
+      color: #463b5e;
+    }
+
+    .skills {
+      text-align: left;
+      margin-top: 20px;
+    }
+
+    .skills h2 {
+      color: #3c2a4d;
+      border-bottom: 2px solid #b39ddb;
+      display: inline-block;
+      margin-bottom: 15px;
+    }
+
+    .skills ul {
+      list-style-type: square;
+      padding-left: 25px;
+      font-size: 16px;
+      color: #463b5e;
     }
 
     footer {
       text-align: center;
-      background-color: #6b4226;
-      color: #f0e6d2;
-      padding: 10px 0;
-      margin-top: 40px;
+      background-color: #3c2a4d;
+      color: #f9f5ff;
+      padding: 12px 0;
       font-size: 14px;
+      margin-top: 50px;
     }
   </style>
 </head>
@@ -86,24 +97,29 @@
   <!-- Navigation -->
   <nav>
     <a href="index.html">Dashboard</a>
-    <a href="previous.html">Previous Semester</a>
-    <a href="current.html">Current Semester</a>
-    <a href="about.html">About Me</a>
-    <a href="contact.html">Contact</a>
+    <a href="Previous.html">Previous Semester</a>
+    <a href="Current.html">Current Semester</a>
+    <a href="About me.html">About Me</a>
   </nav>
 
-  <!-- About Section -->
+  <!-- About Me Section -->
   <div class="container">
-    <h1>About Me</h1>
-    <img src="yourphoto.jpg" alt="Ansh Mishra">
-    <p><strong>Name:</strong> Ansh Mishra</p>
-    <p><strong>Roll No:</strong> 45</p>
-    <p><strong>Semester:</strong> 5</p>
-    <p><strong>CGPA:</strong> 7.6</p>
-    <p>
-      I am a dedicated computer science student passionate about coding, web design, and learning modern technologies.
-      I enjoy creating beautiful and functional digital experiences that merge creativity with functionality.
+    <h1>Ansh Mishra</h1>
+    <p class="bio">
+      Hello! I'm <strong>Ansh Mishra</strong>, a 5th-semester Computer Science student with a passion for web design,
+      coding, and problem-solving. I enjoy crafting creative interfaces that combine functionality and aesthetics.
     </p>
+
+    <div class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>ReactJS & Node.js (Basics)</li>
+        <li>Git & GitHub Version Control</li>
+        <li>Responsive Web Design</li>
+        <li>Problem Solving in C/C++</li>
+      </ul>
+    </div>
   </div>
 
   <!-- Footer -->
