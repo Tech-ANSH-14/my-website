@@ -6,7 +6,6 @@ A simple, elegant **Student Dashboard Website** built with **HTML and CSS**, des
 
 ## 🌐 Live Demo
 **🔗 Visit here:**  [ https//my-website-black-chi.vercel.app ]
-> Replace `<your-username>` and `<your-repo-name>` with your actual GitHub details after deployment.
 
 ---
 
