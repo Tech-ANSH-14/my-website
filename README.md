@@ -5,8 +5,7 @@ A simple, elegant **Student Dashboard Website** built with **HTML and CSS**, des
 ---
 
 ## 🌐 Live Demo
-**🔗 Visit here:** [https://<your-username>.github.io/<your-repo-name>/](https://<your-username>.github.io/<your-repo-name>/)
-
+**🔗 Visit here:**  [ my-website-omega-ochre.vercel.app ]
 > Replace `<your-username>` and `<your-repo-name>` with your actual GitHub details after deployment.
 
 ---
