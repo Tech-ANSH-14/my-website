@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -28,9 +28,22 @@
       z-index: 1000;
     }
 
+    /* Make name clickable */
     .navbar h1 {
       margin: 0;
       font-size: 24px;
+    }
+
+    .navbar h1 a {
+      color: #f0e6d2;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+
+    .navbar h1 a:hover {
+      color: #ffcc80;
+      text-decoration: underline;
+      cursor: pointer;
     }
 
     .navbar ul {
@@ -119,9 +132,10 @@
 </head>
 <body>
 
-  
+  <!-- Navbar -->
   <div class="navbar">
-    <h1>Ansh Mishra</h1>
+    <!-- Name now links to previous.html -->
+    <h1><a href="previous.html">Ansh Mishra</a></h1>
     <ul>
       <li><a href="#home">Home</a></li>
       <li><a href="#about">About</a></li>
@@ -133,7 +147,7 @@
 
   <div class="spacer"></div>
 
-  
+  <!-- Home Section -->
   <section id="home" class="content">
     <div class="profile-section">
       <img src="yourphoto.jpg" alt="Ansh Mishra Photo">
@@ -142,13 +156,13 @@
     <p>Welcome to my portfolio! Explore my profile, skills, and academic information by navigating through the menu above.</p>
   </section>
 
-  
+  <!-- About Section -->
   <section id="about" class="content">
     <h2>About Me</h2>
     <p>Hello! I'm <strong>Ansh Mishra</strong>, a passionate developer with a keen interest in web technologies and software development. I enjoy learning modern frameworks and building efficient, elegant solutions.</p>
   </section>
 
-
+  <!-- Skills Section -->
   <section id="skills" class="content">
     <h2>Skills</h2>
     <div class="skills">
@@ -161,7 +175,7 @@
     </div>
   </section>
 
-  
+  <!-- Academic Info Section -->
   <section id="academic" class="content">
     <h2>Academic Info</h2>
     <p><strong>Name:</strong> Ansh Mishra</p>
@@ -171,7 +185,7 @@
     <p><strong>CGPA:</strong> 7.6</p>
   </section>
 
-
+  <!-- Contact Section -->
   <section id="contact" class="content">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:ansh@.com">ansh@example.com</a></p>
@@ -179,77 +193,5 @@
     <p>GitHub: <a href="#">github.com/ansh</a></p>
   </section>
 
-</body>
-</html> -->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Welcome - Ansh Mishra</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: "Poppins", sans-serif;
-      background: linear-gradient(135deg, #1e1f3d, #2a2b55);
-      color: #f0f0f5;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      animation: fadeIn 1s ease-in;
-    }
-
-    h1 {
-      color: #b78cff;
-      margin-bottom: 20px;
-    }
-
-    p {
-      max-width: 600px;
-      color: #ccc;
-      margin-bottom: 40px;
-      font-size: 1.1em;
-    }
-
-    .btn {
-      background-color: #8a2be2;
-      color: #fff;
-      padding: 12px 30px;
-      border: none;
-      border-radius: 25px;
-      font-size: 1.1em;
-      font-weight: 600;
-      cursor: pointer;
-      text-decoration: none;
-      transition: 0.3s ease;
-    }
-
-    .btn:hover {
-      background-color: #b78cff;
-      transform: scale(1.05);
-    }
-
-    footer {
-      position: absolute;
-      bottom: 15px;
-      color: #bbb;
-      font-size: 0.9em;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-  </style>
-</head>
-<body>
-  <h1>Welcome to Ansh Mishra’s Student Portal</h1>
-  <p>Explore your semester details, skills, and portfolio information by clicking below.</p>
-  <a href="dashboard.html" class="btn">Go to Dashboard</a>
-
-  <footer>© 2025 Ansh Mishra | Student Dashboard</footer>
 </body>
 </html>
